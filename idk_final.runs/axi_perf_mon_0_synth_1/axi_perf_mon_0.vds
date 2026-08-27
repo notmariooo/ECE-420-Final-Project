@@ -1,0 +1,875 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri May  1 08:32:07 2026
+# Process ID: 19520
+# Current directory: C:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.runs/axi_perf_mon_0_synth_1
+# Command line: vivado.exe -log axi_perf_mon_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_perf_mon_0.tcl
+# Log file: C:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.runs/axi_perf_mon_0_synth_1/axi_perf_mon_0.vds
+# Journal file: C:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.runs/axi_perf_mon_0_synth_1\vivado.jou
+# Running On: DESKTOP-P30BKNH, OS: Windows, CPU Frequency: 3700 MHz, CPU Physical cores: 12, Host memory: 17102 MB
+#-----------------------------------------------------------
+source axi_perf_mon_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 499.812 ; gain = 218.684
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: axi_perf_mon_0
+Command: synth_design -top axi_perf_mon_0 -part xc7z010clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 21076
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1346.207 ; gain = 439.496
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'fifo_full', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1887]
+INFO: [Synth 8-11241] undeclared symbol 'wr_rst_busy', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1888]
+INFO: [Synth 8-11241] undeclared symbol 'Response_Flag', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4002]
+INFO: [Synth 8-11241] undeclared symbol 'Last_Read_Flag', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4018]
+INFO: [Synth 8-11241] undeclared symbol 'F1_Empty', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9081]
+INFO: [Synth 8-11241] undeclared symbol 'F2_Empty', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9106]
+INFO: [Synth 8-11241] undeclared symbol 'F3_Empty', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9236]
+INFO: [Synth 8-11241] undeclared symbol 'F4_Empty', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9275]
+INFO: [Synth 8-11241] undeclared symbol 'FBC_Rd_En', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:10113]
+INFO: [Synth 8-11241] undeclared symbol 'FWL_Rd_En', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:10183]
+INFO: [Synth 8-11241] undeclared symbol 'FSWI_Rd_En', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:10259]
+INFO: [Synth 8-11241] undeclared symbol 'Global_Clk_Cnt_Ovf_En', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14637]
+INFO: [Synth 8-11241] undeclared symbol 'Sample_Metric_Cnt_Ovf_En', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14638]
+INFO: [Synth 8-11241] undeclared symbol 'Lat_Sample_Reg', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14643]
+INFO: [Synth 8-11241] undeclared symbol 'Wr_Lat_Start', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14646]
+INFO: [Synth 8-11241] undeclared symbol 'Wr_Lat_End', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14647]
+INFO: [Synth 8-11241] undeclared symbol 'Rd_Lat_Start', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14648]
+INFO: [Synth 8-11241] undeclared symbol 'Rd_Lat_End', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14649]
+INFO: [Synth 8-11241] undeclared symbol 'stream_fifo_rst_n', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:15104]
+INFO: [Synth 8-11241] undeclared symbol 'stream_fifo_rst_n', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:15330]
+INFO: [Synth 8-11241] undeclared symbol 'stream_fifo_rst_n', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:15557]
+INFO: [Synth 8-11241] undeclared symbol 'stream_fifo_rst_n', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:15782]
+INFO: [Synth 8-11241] undeclared symbol 'stream_fifo_rst_n', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:16009]
+INFO: [Synth 8-11241] undeclared symbol 'stream_fifo_rst_n', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:16235]
+INFO: [Synth 8-11241] undeclared symbol 'External_Event7_Cnt_En', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:16578]
+INFO: [Synth 8-11241] undeclared symbol 'Wr_Lat_Start', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:18329]
+INFO: [Synth 8-11241] undeclared symbol 'Wr_Lat_End', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:18330]
+INFO: [Synth 8-11241] undeclared symbol 'Rd_Lat_Start', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:18331]
+INFO: [Synth 8-11241] undeclared symbol 'Rd_Lat_End', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:18332]
+INFO: [Synth 8-11241] undeclared symbol 'Overflow', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:20513]
+INFO: [Synth 8-11241] undeclared symbol 'Metrics_Cnt_En_Out', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:21978]
+INFO: [Synth 8-11241] undeclared symbol 'F3_Empty', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:22455]
+INFO: [Synth 8-11241] undeclared symbol 'F4_Empty', assumed default net type 'wire' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:22493]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_0' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/synth/axi_perf_mon_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_top' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:24348]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_advanced' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:13045]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_intr_sync' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:8254]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_cdc_sync' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_cdc_sync' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_intr_sync' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:8254]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_cdc_sync__parameterized0' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_cdc_sync__parameterized0' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:65]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_cdc_sync__parameterized1' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_cdc_sync__parameterized1' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:65]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_samp_intl_cnt' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:7294]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_counter' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:2890]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_counter' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:2890]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_samp_intl_cnt' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:7294]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_axi_interface' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:2491]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_axi_interface' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:2491]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_register_module' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4821]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_cdc_sync__parameterized2' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_cdc_sync__parameterized2' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:65]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_cdc_sync__parameterized3' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_cdc_sync__parameterized3' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_register_module' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4821]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_interrupt_module' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4290]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_interrupt_module' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4290]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_glbl_clk_cnt' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4173]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_glbl_clk_cnt' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4173]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_mon_fifo' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4450]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_async_fifo' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:647]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_async' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2158]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_base' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_reg_vec' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1892]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_reg_vec' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1892]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray__parameterized0' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray__parameterized0' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_reg_vec__parameterized0' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1892]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_reg_vec__parameterized0' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1892]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray__parameterized1' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray__parameterized1' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1214]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1281]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1303]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_reg_bit' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1914]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_reg_bit' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1914]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_rst' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1626]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_sync_rst' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_sync_rst' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_rst' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1626]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized0' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized0' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized1' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized1' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized2' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized2' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_async' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2158]
+WARNING: [Synth 8-7071] port 'wr_ack' of module 'xpm_fifo_async' is unconnected for instance 'inst' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1212]
+WARNING: [Synth 8-7071] port 'data_valid' of module 'xpm_fifo_async' is unconnected for instance 'inst' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1212]
+WARNING: [Synth 8-7023] instance 'inst' of module 'xpm_fifo_async' has 26 connections declared, but only 24 given [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1212]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_async_fifo' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:647]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_mon_fifo' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4450]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_metric_calc' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:8385]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_sync_fifo' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1310]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_sync_fifo' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1310]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_cdc_sync__parameterized4' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_cdc_sync__parameterized4' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:65]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_sync_fifo__parameterized0' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1310]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_sync_fifo__parameterized0' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1310]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_sync_fifo__parameterized1' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1310]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_sync_fifo__parameterized1' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1310]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_counter_ovf' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:3043]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_counter_ovf' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:3043]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_sync_fifo__parameterized2' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1310]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_sync_fifo__parameterized2' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1310]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_sync_fifo__parameterized3' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1310]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_sync_fifo__parameterized3' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1310]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_metric_calc' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:8385]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_mon_fifo__parameterized0' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4450]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_async_fifo__parameterized0' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:647]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_async__parameterized0' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2158]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_base__parameterized0' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1214]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1281]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1303]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base__parameterized0' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_async__parameterized0' (0#1) [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2158]
+WARNING: [Synth 8-7071] port 'wr_ack' of module 'xpm_fifo_async' is unconnected for instance 'inst' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1212]
+WARNING: [Synth 8-7071] port 'data_valid' of module 'xpm_fifo_async' is unconnected for instance 'inst' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1212]
+WARNING: [Synth 8-7023] instance 'inst' of module 'xpm_fifo_async' has 26 connections declared, but only 24 given [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1212]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_async_fifo__parameterized0' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:647]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_mon_fifo__parameterized0' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4450]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_ext_calc' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4660]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_ext_calc' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4660]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_metric_counters' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:10450]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_metric_sel_n_cnt' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:12422]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_acc_n_incr' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1468]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_acc_n_incr' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:1468]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_metric_sel_n_cnt' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:12422]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_metric_counters' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:10450]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_samp_metrics_data' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:7416]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_samp_metrics_data' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:7416]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_advanced' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:13045]
+INFO: [Synth 8-6157] synthesizing module 'axi_perf_mon_v5_0_31_dff_async_reset' [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:563]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_dff_async_reset' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:563]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_v5_0_31_top' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:24348]
+INFO: [Synth 8-6155] done synthesizing module 'axi_perf_mon_0' (0#1) [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/synth/axi_perf_mon_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element Lat_Addr_7downto4_is_0x4_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:6743]
+WARNING: [Synth 8-6014] Unused sequential element Lat_Addr_7downto4_is_0x5_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:6744]
+WARNING: [Synth 8-6014] Unused sequential element Lat_Addr_7downto4_is_0x6_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:6745]
+WARNING: [Synth 8-6014] Unused sequential element Lat_Addr_7downto4_is_0x7_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:6746]
+WARNING: [Synth 8-6014] Unused sequential element Lat_Addr_7downto4_is_0x8_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:6747]
+WARNING: [Synth 8-6014] Unused sequential element Lat_Addr_7downto4_is_0x9_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:6748]
+WARNING: [Synth 8-6014] Unused sequential element Lat_Addr_3downto0_is_0x0_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:6750]
+WARNING: [Synth 8-6014] Unused sequential element Lat_Metric_Sel_Reg_1_Rd_En_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:6766]
+WARNING: [Synth 8-6014] Unused sequential element Lat_Metric_Sel_Reg_2_Rd_En_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:6767]
+WARNING: [Synth 8-6014] Unused sequential element gen_rd_b.gen_doutb_pipe.enb_pipe_reg[0] was removed.  [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:3069]
+WARNING: [Synth 8-6014] Unused sequential element dest_out_bin_ff_reg was removed.  [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:417]
+WARNING: [Synth 8-6014] Unused sequential element dest_out_bin_ff_reg was removed.  [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:417]
+WARNING: [Synth 8-6014] Unused sequential element dest_out_bin_ff_reg was removed.  [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:417]
+WARNING: [Synth 8-6014] Unused sequential element gen_fwft.empty_fwft_fb_reg was removed.  [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1398]
+WARNING: [Synth 8-6014] Unused sequential element Reg_Data_In_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4518]
+WARNING: [Synth 8-6014] Unused sequential element First_Write_reg_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9012]
+WARNING: [Synth 8-6014] Unused sequential element AWID_reg_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9017]
+WARNING: [Synth 8-6014] Unused sequential element Write_Beat_d2_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9148]
+WARNING: [Synth 8-6014] Unused sequential element Write_Beat_d3_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9149]
+WARNING: [Synth 8-6014] Unused sequential element Write_Beat_d4_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9150]
+WARNING: [Synth 8-6014] Unused sequential element Write_Beat_reg_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9151]
+WARNING: [Synth 8-6014] Unused sequential element Wr_Idle_d1_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9152]
+WARNING: [Synth 8-6014] Unused sequential element Wr_Idle_d2_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9153]
+WARNING: [Synth 8-6014] Unused sequential element Wr_Idle_d3_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9154]
+WARNING: [Synth 8-6014] Unused sequential element Wr_Idle_d4_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9155]
+WARNING: [Synth 8-6014] Unused sequential element Wr_Idle_reg_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9156]
+WARNING: [Synth 8-6014] Unused sequential element Last_Write_d2_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9158]
+WARNING: [Synth 8-6014] Unused sequential element Last_Write_d3_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9159]
+WARNING: [Synth 8-6014] Unused sequential element Last_Write_d4_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9160]
+WARNING: [Synth 8-6014] Unused sequential element Last_Write_reg_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9161]
+WARNING: [Synth 8-6014] Unused sequential element Last_Write_cnt2_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9162]
+WARNING: [Synth 8-6014] Unused sequential element wr_byte_cnt_d2_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9164]
+WARNING: [Synth 8-6014] Unused sequential element wr_byte_cnt_d3_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9165]
+WARNING: [Synth 8-6014] Unused sequential element wr_byte_cnt_d4_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9166]
+WARNING: [Synth 8-6014] Unused sequential element wr_byte_cnt_reg_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9167]
+WARNING: [Synth 8-6014] Unused sequential element awid_match_d2_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9211]
+WARNING: [Synth 8-6014] Unused sequential element Wr_Valid_Issue_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9469]
+WARNING: [Synth 8-6014] Unused sequential element No_Write_Ready_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9470]
+WARNING: [Synth 8-6014] Unused sequential element Rd_Latency_Fifo_Rd_En_D2_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9815]
+WARNING: [Synth 8-6014] Unused sequential element S_Packet_Cnt_En_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:10362]
+WARNING: [Synth 8-6014] Unused sequential element S_Slv_Idle_Cnt_En_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:10363]
+WARNING: [Synth 8-6014] Unused sequential element S_Mst_Idle_Cnt_En_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:10364]
+WARNING: [Synth 8-6014] Unused sequential element S_Position_Byte_Cnt_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:10366]
+WARNING: [Synth 8-6014] Unused sequential element Last_Read_reg_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:9015]
+WARNING: [Synth 8-6014] Unused sequential element Slv_Wr_Idle_Fifo_Wr_en_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:10233]
+WARNING: [Synth 8-6014] Unused sequential element gen_rd_b.gen_doutb_pipe.enb_pipe_reg[0] was removed.  [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:3069]
+WARNING: [Synth 8-6014] Unused sequential element gen_fwft.empty_fwft_fb_reg was removed.  [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1398]
+WARNING: [Synth 8-6014] Unused sequential element Reg_Data_In_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:4518]
+WARNING: [Synth 8-6014] Unused sequential element trigger_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14883]
+WARNING: [Synth 8-6014] Unused sequential element trigger1_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14884]
+WARNING: [Synth 8-6014] Unused sequential element Streaming_Fifo_Full_D1_reg was removed.  [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:16752]
+WARNING: [Synth 8-3848] Net s_axi_offld_arready in module/entity axi_perf_mon_v5_0_31_advanced does not have driver. [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:13753]
+WARNING: [Synth 8-3848] Net s_axi_offld_rdata in module/entity axi_perf_mon_v5_0_31_advanced does not have driver. [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:13755]
+WARNING: [Synth 8-3848] Net s_axi_offld_rresp in module/entity axi_perf_mon_v5_0_31_advanced does not have driver. [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:13756]
+WARNING: [Synth 8-3848] Net s_axi_offld_rvalid in module/entity axi_perf_mon_v5_0_31_advanced does not have driver. [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:13757]
+WARNING: [Synth 8-3848] Net s_axi_offld_rid in module/entity axi_perf_mon_v5_0_31_advanced does not have driver. [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:13758]
+WARNING: [Synth 8-3848] Net s_axi_offld_rlast in module/entity axi_perf_mon_v5_0_31_advanced does not have driver. [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:13759]
+WARNING: [Synth 8-3848] Net eventlog_cur_cnt in module/entity axi_perf_mon_v5_0_31_advanced does not have driver. [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:13905]
+WARNING: [Synth 8-3848] Net S1_Read_Byte_Cnt_En in module/entity axi_perf_mon_v5_0_31_advanced does not have driver. [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14112]
+WARNING: [Synth 8-3848] Net S2_Read_Byte_Cnt_En in module/entity axi_perf_mon_v5_0_31_advanced does not have driver. [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14113]
+WARNING: [Synth 8-3848] Net S3_Read_Byte_Cnt_En in module/entity axi_perf_mon_v5_0_31_advanced does not have driver. [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14114]
+WARNING: [Synth 8-3848] Net S4_Read_Byte_Cnt_En in module/entity axi_perf_mon_v5_0_31_advanced does not have driver. [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14115]
+WARNING: [Synth 8-3848] Net S5_Read_Byte_Cnt_En in module/entity axi_perf_mon_v5_0_31_advanced does not have driver. [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14116]
+WARNING: [Synth 8-3848] Net S6_Read_Byte_Cnt_En in module/entity axi_perf_mon_v5_0_31_advanced does not have driver. [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14117]
+WARNING: [Synth 8-3848] Net S7_Read_Byte_Cnt_En in module/entity axi_perf_mon_v5_0_31_advanced does not have driver. [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/hdl/axi_perf_mon_v5_0_syn_rfs.v:14118]
+WARNING: [Synth 8-7129] Port prmry_aclk in module axi_perf_mon_v5_0_31_cdc_sync__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_rst_n in module axi_perf_mon_v5_0_31_cdc_sync__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[0] in module axi_perf_mon_v5_0_31_cdc_sync__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[31] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[30] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[29] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[28] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[27] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[26] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[25] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[24] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[23] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[22] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[21] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[20] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[19] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[18] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[17] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[16] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[15] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[14] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[13] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[12] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[11] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[10] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[9] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[8] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[7] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[6] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[5] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[4] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[3] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[2] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[1] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_4[0] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[31] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[30] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[29] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[28] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[27] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[26] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[25] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[24] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[23] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[22] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[21] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[20] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[19] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[18] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[17] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[16] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[15] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[14] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[13] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[12] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[11] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[10] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[9] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[8] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[7] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[6] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[5] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[4] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[3] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[2] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[1] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_5[0] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[31] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[30] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[29] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[28] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[27] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[26] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[25] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[24] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[23] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[22] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[21] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[20] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[19] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[18] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[17] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[16] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[15] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[14] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[13] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[12] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[11] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[10] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[9] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[8] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[7] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[6] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[5] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[4] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[3] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[2] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[1] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_6[0] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Metric_Cnt_7[31] in module axi_perf_mon_v5_0_31_samp_metrics_data is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1507.566 ; gain = 600.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1507.566 ; gain = 600.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1507.566 ; gain = 600.855
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.235 . Memory (MB): peak = 1507.566 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/axi_perf_mon_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/axi_perf_mon_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/axi_perf_mon_0.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/axi_perf_mon_0.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/axi_perf_mon_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/axi_perf_mon_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/axi_perf_mon_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.runs/axi_perf_mon_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.runs/axi_perf_mon_0_synth_1/dont_touch.xdc]
+Parsing XDC File [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/axi_perf_mon_0_clocks.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/axi_perf_mon_0_clocks.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/axi_perf_mon_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/axi_perf_mon_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/axi_perf_mon_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/axi_perf_mon_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/axi_perf_mon_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/axi_perf_mon_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 16 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1613.180 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.090 . Memory (MB): peak = 1613.477 ; gain = 0.297
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1613.477 ; gain = 706.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1613.477 ; gain = 706.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property MAX_FANOUT = 300 for inst/\GEN_Advanced_Mode.adavnced_mode_inst /ext_calc_inst0/rst_int_n_reg. (constraint file  c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/axi_perf_mon_0.xdc, line 58).
+Applied set_property MAX_FANOUT = 300 for inst/\GEN_Advanced_Mode.adavnced_mode_inst /metric_calc_inst0/rst_int_n_reg. (constraint file  c:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.gen/sources_1/ip/axi_perf_mon_0/axi_perf_mon_0.xdc, line 58).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.runs/axi_perf_mon_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_inst_0/\USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.rd_pntr_cdc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_ext_event0_inst/\USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.rd_pntr_cdc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_inst_0/\USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.wr_pntr_cdc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_ext_event0_inst/\USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.wr_pntr_cdc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_inst_0/\USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.rd_pntr_cdc_dc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_ext_event0_inst/\USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.rd_pntr_cdc_dc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_inst_0/\USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.wr_pntr_cdc_dc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_ext_event0_inst/\USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.wr_pntr_cdc_dc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_inst_0/CDC_ENABLE_MCLK_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_ext_event0_inst/CDC_ENABLE_MCLK_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_inst_0/\USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /xpm_fifo_rst_inst/\gen_rst_ic.rrst_wr_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_ext_event0_inst/\USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /xpm_fifo_rst_inst/\gen_rst_ic.rrst_wr_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_inst_0/\USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /xpm_fifo_rst_inst/\gen_rst_ic.wrst_rd_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_ext_event0_inst/\USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /xpm_fifo_rst_inst/\gen_rst_ic.wrst_rd_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_inst_0/\USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\GEN_Advanced_Mode.adavnced_mode_inst /mon_fifo_ext_event0_inst/\USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst . (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1613.477 ; gain = 706.766
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst__xdcDup__1'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_rrst_state_reg' in module 'xpm_fifo_rst__xdcDup__1'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_fwft.curr_fwft_state_reg' in module 'xpm_fifo_base'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_rrst_state_reg' in module 'xpm_fifo_rst'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_fwft.curr_fwft_state_reg' in module 'xpm_fifo_base__parameterized0'
+INFO: [Synth 8-5552] Implemented safe state 'default_state' for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst__xdcDup__1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               WRST_IDLE |                            00001 |                              000
+                 WRST_IN |                            00010 |                              010
+                WRST_OUT |                            00100 |                              111
+               WRST_EXIT |                            01000 |                              110
+            WRST_GO2IDLE |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_rst_ic.curr_wrst_state_reg' using encoding 'one-hot' in module 'xpm_fifo_rst__xdcDup__1'
+INFO: [Synth 8-5552] Implemented safe state 'default_state' for state register 'gen_rst_ic.curr_rrst_state_reg' in module 'xpm_fifo_rst__xdcDup__1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               RRST_IDLE |                               00 |                               00
+                 RRST_IN |                               01 |                               10
+                RRST_OUT |                               10 |                               11
+               RRST_EXIT |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_rst_ic.curr_rrst_state_reg' using encoding 'sequential' in module 'xpm_fifo_rst__xdcDup__1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 invalid |                               00 |                               00
+            stage1_valid |                               01 |                               10
+       both_stages_valid |                               10 |                               11
+            stage2_valid |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_fwft.curr_fwft_state_reg' using encoding 'sequential' in module 'xpm_fifo_base'
+INFO: [Synth 8-5552] Implemented safe state 'default_state' for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               WRST_IDLE |                            00001 |                              000
+                 WRST_IN |                            00010 |                              010
+                WRST_OUT |                            00100 |                              111
+               WRST_EXIT |                            01000 |                              110
+            WRST_GO2IDLE |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_rst_ic.curr_wrst_state_reg' using encoding 'one-hot' in module 'xpm_fifo_rst'
+INFO: [Synth 8-5552] Implemented safe state 'default_state' for state register 'gen_rst_ic.curr_rrst_state_reg' in module 'xpm_fifo_rst'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               RRST_IDLE |                               00 |                               00
+                 RRST_IN |                               01 |                               10
+                RRST_OUT |                               10 |                               11
+               RRST_EXIT |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_rst_ic.curr_rrst_state_reg' using encoding 'sequential' in module 'xpm_fifo_rst'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 invalid |                               00 |                               00
+            stage1_valid |                               01 |                               10
+       both_stages_valid |                               10 |                               11
+            stage2_valid |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_fwft.curr_fwft_state_reg' using encoding 'sequential' in module 'xpm_fifo_base__parameterized0'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1613.477 ; gain = 706.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   36 Bit       Adders := 4     
+	   2 Input   33 Bit       Adders := 9     
+	   3 Input   32 Bit       Adders := 2     
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input    9 Bit       Adders := 2     
+	   4 Input    6 Bit       Adders := 6     
+	   2 Input    6 Bit       Adders := 50    
+	   3 Input    6 Bit       Adders := 4     
+	   4 Input    5 Bit       Adders := 6     
+	   3 Input    5 Bit       Adders := 2     
+	   4 Input    2 Bit       Adders := 2     
++---XORs : 
+	   2 Input      6 Bit         XORs := 4     
+	   2 Input      5 Bit         XORs := 4     
+	   2 Input      1 Bit         XORs := 73    
++---Registers : 
+	              114 Bit    Registers := 3     
+	               64 Bit    Registers := 2     
+	               36 Bit    Registers := 4     
+	               33 Bit    Registers := 16    
+	               32 Bit    Registers := 53    
+	               16 Bit    Registers := 10    
+	               13 Bit    Registers := 1     
+	               11 Bit    Registers := 6     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 5     
+	                6 Bit    Registers := 62    
+	                5 Bit    Registers := 32    
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 9     
+	                2 Bit    Registers := 13    
+	                1 Bit    Registers := 404   
++---RAMs : 
+	               8K Bit	(256 X 32 bit)          RAMs := 1     
++---Muxes : 
+	   5 Input   36 Bit        Muxes := 4     
+	   2 Input   36 Bit        Muxes := 4     
+	   3 Input   33 Bit        Muxes := 9     
+	   2 Input   33 Bit        Muxes := 9     
+	   2 Input   32 Bit        Muxes := 31    
+	   8 Input   32 Bit        Muxes := 1     
+	  41 Input   32 Bit        Muxes := 1     
+	   3 Input   32 Bit        Muxes := 2     
+	  15 Input   32 Bit        Muxes := 4     
+	  25 Input   32 Bit        Muxes := 4     
+	   2 Input   16 Bit        Muxes := 2     
+	   2 Input   13 Bit        Muxes := 3     
+	   2 Input   11 Bit        Muxes := 1     
+	   6 Input    5 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 16    
+	  25 Input    4 Bit        Muxes := 4     
+	   2 Input    3 Bit        Muxes := 3     
+	   5 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 68    
+	   5 Input    2 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 14    
+	   2 Input    1 Bit        Muxes := 108   
+	   6 Input    1 Bit        Muxes := 4     
+	   5 Input    1 Bit        Muxes := 6     
+	   4 Input    1 Bit        Muxes := 4     
+	  25 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1613.477 ; gain = 706.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++-----------------------------------------------------------------+------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                                      | RTL Object                         | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-----------------------------------------------------------------+------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/register_module_inst  | GEN_METRIC_RAM.Metric_ram_CDCR_reg | 256 x 32(READ_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
++-----------------------------------------------------------------+------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------+----------------+----------------------+---------------+
+|Module Name                                                                                                                                                                                 | RTL Object                               | Inference      | Size (Depth x Width) | Primitives    | 
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------+----------------+----------------------+---------------+
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/mon_fifo_inst_0/USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_sdpram.xpm_memory_base_inst           | gen_wr_a.gen_word_narrow.mem_reg         | User Attribute | 32 x 114             | RAM32M x 19   | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | GEN_ARSIZE_FIFO.F1_ARSIZE_NARROW/mem_reg | User Attribute | 32 x 8               | RAM32M x 2    | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | F1_AWID_MATCH/mem_reg                    | User Attribute | 32 x 1               | RAM32X1D x 1  | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | F2_FIRST_WRITE/mem_reg                   | User Attribute | 32 x 1               | RAM32X1D x 1  | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | F3_WR_LAT_START/mem_reg                  | User Attribute | 32 x 33              | RAM32M x 6    | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | F4_WR_LAT_END/mem_reg                    | User Attribute | 32 x 33              | RAM32M x 6    | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | rd_latency_fifo_inst/mem_reg             | User Attribute | 32 x 33              | RAM32M x 6    | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | FBC_WR_BEAT_CNT/mem_reg                  | User Attribute | 32 x 64              | RAM32M x 11   | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | BEAT_CNT_AWID_MATCH/mem_reg              | User Attribute | 32 x 1               | RAM32X1D x 1  | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | LAST_CNT_AWID_MATCH/mem_reg              | User Attribute | 32 x 1               | RAM32X1D x 1  | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | FSWI_WR_LAST_CNT/mem_reg                 | User Attribute | 32 x 32              | RAM32M x 6    | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | IDLE_CNT_AWID_MATCH/mem_reg              | User Attribute | 32 x 1               | RAM32X1D x 1  | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/mon_fifo_ext_event0_inst/USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg         | User Attribute | 32 x 3               | RAM32M x 1    | 
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------+----------------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 1613.477 ; gain = 706.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 1613.477 ; gain = 706.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++-----------------------------------------------------------------+------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                                      | RTL Object                         | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-----------------------------------------------------------------+------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/register_module_inst  | GEN_METRIC_RAM.Metric_ram_CDCR_reg | 256 x 32(READ_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
++-----------------------------------------------------------------+------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping Report
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------+----------------+----------------------+---------------+
+|Module Name                                                                                                                                                                                 | RTL Object                               | Inference      | Size (Depth x Width) | Primitives    | 
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------+----------------+----------------------+---------------+
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/mon_fifo_inst_0/USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_sdpram.xpm_memory_base_inst           | gen_wr_a.gen_word_narrow.mem_reg         | User Attribute | 32 x 114             | RAM32M x 19   | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | GEN_ARSIZE_FIFO.F1_ARSIZE_NARROW/mem_reg | User Attribute | 32 x 8               | RAM32M x 2    | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | F1_AWID_MATCH/mem_reg                    | User Attribute | 32 x 1               | RAM32X1D x 1  | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | F2_FIRST_WRITE/mem_reg                   | User Attribute | 32 x 1               | RAM32X1D x 1  | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | F3_WR_LAT_START/mem_reg                  | User Attribute | 32 x 33              | RAM32M x 6    | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | F4_WR_LAT_END/mem_reg                    | User Attribute | 32 x 33              | RAM32M x 6    | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | rd_latency_fifo_inst/mem_reg             | User Attribute | 32 x 33              | RAM32M x 6    | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | FBC_WR_BEAT_CNT/mem_reg                  | User Attribute | 32 x 64              | RAM32M x 11   | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | BEAT_CNT_AWID_MATCH/mem_reg              | User Attribute | 32 x 1               | RAM32X1D x 1  | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | LAST_CNT_AWID_MATCH/mem_reg              | User Attribute | 32 x 1               | RAM32X1D x 1  | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | FSWI_WR_LAST_CNT/mem_reg                 | User Attribute | 32 x 32              | RAM32M x 6    | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/metric_calc_inst0                                                                                                                                | IDLE_CNT_AWID_MATCH/mem_reg              | User Attribute | 32 x 1               | RAM32X1D x 1  | 
+|inst/\GEN_Advanced_Mode.adavnced_mode_inst/mon_fifo_ext_event0_inst/USE_MON_FIFO.async_fifo_inst /\XPM_ASYNC.inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg         | User Attribute | 32 x 3               | RAM32M x 1    | 
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------+----------------+----------------------+---------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/GEN_Advanced_Mode.adavnced_mode_inst/register_module_inst/GEN_METRIC_RAM.Metric_ram_CDCR_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/GEN_Advanced_Mode.adavnced_mode_inst/register_module_inst/GEN_METRIC_RAM.Metric_ram_CDCR_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1613.477 ; gain = 706.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/p_level_in_d1_cdc_from_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/prmry_ack_int_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/p_level_out_d1_cdc_to_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/p_level_out_d2_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/p_level_out_d3_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/p_level_out_d4_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/p_level_out_d5_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/p_level_out_d6_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/p_level_out_d7_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/s_level_out_d1_cdc_to_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/s_level_out_d2_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/s_level_out_d3_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/s_level_out_d4_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/s_level_out_d5_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/s_level_out_d6_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/s_level_out_bus_d1_cdc_to_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/s_level_out_bus_d2_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/s_level_out_bus_d3_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/s_level_out_bus_d4_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/s_level_out_bus_d5_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[0].cdc_sync_inst/s_level_out_bus_d6_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/p_level_in_d1_cdc_from_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/prmry_ack_int_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/p_level_out_d1_cdc_to_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/p_level_out_d2_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/p_level_out_d3_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/p_level_out_d4_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/p_level_out_d5_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/p_level_out_d6_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/p_level_out_d7_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/s_level_out_d1_cdc_to_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/s_level_out_d2_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/s_level_out_d3_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/s_level_out_d4_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/s_level_out_d5_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/s_level_out_d6_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/s_level_out_bus_d1_cdc_to_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/s_level_out_bus_d2_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/s_level_out_bus_d3_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/s_level_out_bus_d4_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/s_level_out_bus_d5_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[1].cdc_sync_inst/s_level_out_bus_d6_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/p_level_in_d1_cdc_from_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/prmry_ack_int_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/p_level_out_d1_cdc_to_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/p_level_out_d2_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/p_level_out_d3_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/p_level_out_d4_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/p_level_out_d5_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/p_level_out_d6_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/p_level_out_d7_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/s_level_out_d1_cdc_to_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/s_level_out_d2_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/s_level_out_d3_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/s_level_out_d4_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/s_level_out_d5_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/s_level_out_d6_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/s_level_out_bus_d1_cdc_to_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/s_level_out_bus_d2_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/s_level_out_bus_d3_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/s_level_out_bus_d4_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/s_level_out_bus_d5_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[2].cdc_sync_inst/s_level_out_bus_d6_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/p_level_in_d1_cdc_from_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/prmry_ack_int_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/p_level_out_d1_cdc_to_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/p_level_out_d2_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/p_level_out_d3_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/p_level_out_d4_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/p_level_out_d5_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/p_level_out_d6_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/p_level_out_d7_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/s_level_out_d1_cdc_to_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/s_level_out_d2_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/s_level_out_d3_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/s_level_out_d4_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/s_level_out_d5_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/s_level_out_d6_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/s_level_out_bus_d1_cdc_to_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/s_level_out_bus_d2_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/s_level_out_bus_d3_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/s_level_out_bus_d4_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/s_level_out_bus_d5_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[3].cdc_sync_inst/s_level_out_bus_d6_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/p_level_in_d1_cdc_from_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/prmry_ack_int_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/p_level_out_d1_cdc_to_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/p_level_out_d2_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/p_level_out_d3_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/p_level_out_d4_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/p_level_out_d5_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/p_level_out_d6_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/p_level_out_d7_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/s_level_out_d1_cdc_to_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/s_level_out_d2_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/s_level_out_d3_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/s_level_out_d4_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/s_level_out_d5_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/s_level_out_d6_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin GEN_Advanced_Mode.adavnced_mode_inst/GEN_INTR_ASYNC.intr_sync_module_inst/GEN_SYNC[4].cdc_sync_inst/s_level_out_bus_d1_cdc_to_inferred:in0 to constant 0
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 1613.477 ; gain = 706.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 1613.477 ; gain = 706.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 1613.477 ; gain = 706.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 1613.477 ; gain = 706.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 1613.477 ; gain = 706.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 1613.477 ; gain = 706.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |   218|
+|2     |LUT1     |   585|
+|3     |LUT2     |   547|
+|4     |LUT3     |   142|
+|5     |LUT4     |   508|
+|6     |LUT5     |   717|
+|7     |LUT6     |  1061|
+|8     |RAM32M   |    55|
+|9     |RAM32X1D |     9|
+|10    |RAMB18E1 |     1|
+|11    |FDPE     |     4|
+|12    |FDRE     |  3896|
+|13    |FDSE     |    89|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 1613.477 ; gain = 706.766
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2523 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:42 . Memory (MB): peak = 1613.477 ; gain = 600.855
+Synthesis Optimization Complete : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 1613.477 ; gain = 706.766
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.144 . Memory (MB): peak = 1613.477 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 283 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1613.477 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 64 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 55 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 9 instances
+
+Synth Design complete | Checksum: f5919e66
+INFO: [Common 17-83] Releasing license: Synthesis
+284 Infos, 172 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:59 . Memory (MB): peak = 1613.477 ; gain = 1097.328
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1613.477 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.runs/axi_perf_mon_0_synth_1/axi_perf_mon_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP axi_perf_mon_0, cache-ID = a57fbc19fd90f377
+INFO: [Coretcl 2-1174] Renamed 112 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1613.477 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.runs/axi_perf_mon_0_synth_1/axi_perf_mon_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file axi_perf_mon_0_utilization_synth.rpt -pb axi_perf_mon_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May  1 08:33:25 2026...

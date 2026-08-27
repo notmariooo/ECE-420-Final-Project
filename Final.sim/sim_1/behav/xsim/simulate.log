@@ -1,0 +1,8 @@
+Time resolution is 1 ps
+Note: TEST PASSED: All 16 AXI write/read transactions completed successfully.
+Time: 1908 ns  Iteration: 0  Process: /testbench/check_proc  File: C:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.srcs/sim_1/new/testbench.vhd
+$stop called at time : 1988 ns : File "C:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.srcs/sim_1/new/testbench.vhd" Line 145
+Note: TEST PASSED: All 16 AXI write/read transactions completed successfully.
+Time: 1908 ns  Iteration: 0  Process: /testbench/check_proc  File: C:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.srcs/sim_1/new/testbench.vhd
+$stop called at time : 1988 ns : File "C:/Users/Mario/Downloads/week10_examples/idk_final/idk_final.srcs/sim_1/new/testbench.vhd" Line 145
+INFO: xsimkernel Simulation Memory Usage: 20272 KB (Peak: 20272 KB), Simulation CPU Usage: 188452 ms

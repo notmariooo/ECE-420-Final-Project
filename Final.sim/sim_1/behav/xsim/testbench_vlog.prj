@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../idk_final.ip_user_files/ipstatic" \
+"../../../../idk_final.gen/sources_1/ip/axi_perf_mon_0/sim/axi_perf_mon_0.v" \
+"../../../../idk_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../idk_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
